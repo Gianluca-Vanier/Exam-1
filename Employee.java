@@ -37,7 +37,7 @@ public class Employee{
             return eligableToDrive;
         }
         else{
-            System.out.println(age + " years left.");
+            System.out.println(16 - age);
             return eligableToDrive;
         }
     }
