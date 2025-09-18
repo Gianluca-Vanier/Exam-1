@@ -31,13 +31,15 @@ public class Employee{
      */
     public boolean canDrive(){
         int age = calculateAge(2025);
-        int eligableToDrive = false;
-        if age >= 16;
+        boolean eligableToDrive = false;
+        if(age >= 16){
             eligableToDrive = true;
             return eligableToDrive;
-        else;
-            System.out.println(16 - age + " years left.");
+        }
+        else{
+            System.out.println(age + " years left.");
             return eligableToDrive;
+        }
     }
 
     /*
@@ -59,7 +61,7 @@ public class Employee{
         unpaidHours = 0.0;
     }
     
-    public setName(String fullname){
+    public void setName(String fullname){
         this.fullname = fullname;
     }
     
